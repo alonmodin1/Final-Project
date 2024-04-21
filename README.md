@@ -76,7 +76,7 @@ To validate the trained model:
 5. Performance metrics such as accuracy and loss will be displayed.
 
 ### Validation Example:
-![Alt text](https://github.com/alonmodin1/Final-Project/blob/main/Part%20B/vali.png)
+![Alt text](https://github.com/alonmodin1/Final-Project/blob/main/Part%20B/validation.png)
 
 ## Prediction
 
