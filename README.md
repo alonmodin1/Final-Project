@@ -9,10 +9,13 @@ This project focuses on building a machine learning model to classify whether a 
 
 The project is organized into several components:
 
-- **src**: Contains the source code for the ABSA model training, validation, and prediction.
-- **dataset**: Stores the datasets used for training and testing the model.
-- **pretrained_models**: Contains the pre-trained BERT models used for aspect-based sentiment analysis.
-- **results**: Stores the output files generated during model training, validation, and prediction.
+- **Final_Main**: Contains the source code for the ABSA model training, validation, and prediction.
+- **csv_and_plots**: contains the functions that creates the datasets used for training, testing and predicting on the model.
+- **absa.py**: Contains the classes that are used to train, validate and predict on the model.
+- **requirments**: Contains the required libraries to import.
+- **Train_dataset**: Contains the trained datasets to train aditional layer on the pre-trained model.
+- **Related Files**: Contains related output and input files for example.
+- **Prediction_dataset**: Contains csv Shakespeare poems to predict on the model.
 
 ## Requirements
 
@@ -26,7 +29,7 @@ The project is organized into several components:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/shakespeare-texts-prediction.git
+   git clone https://github.com/yourusername/Final-Project.git
    ```
 
 2. Install the required dependencies:
@@ -34,58 +37,51 @@ The project is organized into several components:
    ```bash
    pip install -r requirements.txt
    ```
+## Preparing the Datasets
+
+to prepare the datasets to use them as input for the model:
+
+1. prepare the poems of Shakespeare and non-Shakespeare at txt format.
+2. open the csv_and_plots.ipynb
+3. run the desired function, see that you are changing the paths and variables to fit your PC.
+4. Validate that the output is at the same format as the similar file at the package
 
 ## Training the Model
 
-To train the ABSA model on a new dataset:
+To train additional layer on a pre-trained ABSA model on a new dataset:
 
-1. Prepare your dataset by storing poems in CSV format under the `dataset` directory.
-2. Update the dataset paths in the training script if necessary.
-3. Run the training script:
-
-   ```bash
-   python train_model.py
-   ```
-
-4. The trained model will be saved in the `pretrained_models` directory.
+1. Prepare your dataset in CSV format.
+2. open Final_Main.py from the package locate the function that is used to train additional layer.
+3. Run the training function.
+4. The trained model will be saved and will be usefull for future prediction validation and work.
 
 ## Validation
 
 To validate the trained model:
 
 1. Prepare a test dataset containing poems for validation.
-2. Update the dataset path in the validation script if necessary.
-3. Run the validation script:
-
-   ```bash
-   python validate_model.py
-   ```
-
-4. Performance metrics such as accuracy and loss will be displayed.
+2. open Final_Main.py from the package locate the function that is used to validate trained model.
+3. Update the dataset and model path in the validation script if necessary.
+4. Run the validation function.
+5. Performance metrics such as accuracy and loss will be displayed.
 
 ## Prediction
 
 To make predictions on a new set of poems:
 
-1. Load the trained model using the appropriate script.
-2. Prepare the poems to be predicted and store them in CSV format under the `dataset` directory.
-3. Update the dataset path in the prediction script if necessary.
-4. Run the prediction script:
+1. open Final_Main.py from the package locate the function that is used to predic on a trained model.
+2. Load the trained model using the appropriate path.
+3. Prepare the poems to be predicted and store them in CSV format.
+4. Update the dataset path in the prediction script.
+5. Run the prediction function.
+6. Predictions will be generated.
 
-   ```bash
-   python predict_texts.py
-   ```
+## Contributers
 
-5. Predictions will be generated and saved in the `results` directory.
+* **Alon Modin**
+* **Omer Asus**
 
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and ensure all tests pass.
-4. Submit a pull request detailing your changes.
+Special thanks to Prof. Zeev Volkovich and Dr. Renata Avros for their guidance and support.
 
 ## License
 
