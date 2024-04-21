@@ -55,6 +55,16 @@ To train additional layer on a pre-trained ABSA model on a new dataset:
 3. Run the training function.
 4. The trained model will be saved and will be usefull for future prediction validation and work.
 
+### Training Example:
+
+Accuracy plot:
+
+![Alt text](https://github.com/alonmodin1/Final-Project/blob/main/Part%20B/accu.png)
+
+Loss plot:
+
+![Alt text](https://github.com/alonmodin1/Final-Project/blob/main/Part%20B/loss.png)
+
 ## Validation
 
 To validate the trained model:
@@ -64,6 +74,9 @@ To validate the trained model:
 3. Update the dataset and model path in the validation script if necessary.
 4. Run the validation function.
 5. Performance metrics such as accuracy and loss will be displayed.
+
+### Validation Example:
+![Alt text](https://github.com/alonmodin1/Final-Project/blob/main/Part%20B/vali.png)
 
 ## Prediction
 
@@ -75,6 +88,9 @@ To make predictions on a new set of poems:
 4. Update the dataset path in the prediction script.
 5. Run the prediction function.
 6. Predictions will be generated.
+
+### Prediction Example:
+![Alt text](https://github.com/alonmodin1/Final-Project/blob/main/Part%20B/pred.png)
 
 ## Contributers
 
