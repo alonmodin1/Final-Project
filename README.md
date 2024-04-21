@@ -59,7 +59,7 @@ To train additional layer on a pre-trained ABSA model on a new dataset:
 
 Accuracy plot:
 
-![Alt text](https://github.com/alonmodin1/Final-Project/blob/main/Part%20B/accu.png)
+![Alt text](https://github.com/alonmodin1/Final-Project/blob/main/Part%20B/accuracy.png)
 
 Loss plot:
 
