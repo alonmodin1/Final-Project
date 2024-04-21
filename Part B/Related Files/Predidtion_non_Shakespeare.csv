@@ -1,0 +1,13 @@
+Filename,Prediction
+output_An essay.csv,['Poem is written by Shakespeare']
+output_Cecilia.csv,['Poem is not written by Shakespeare']
+output_Jacob_s Room.csv,['Poem is not written by Shakespeare']
+output_Monday or Tuesday.csv,['Poem is not written by Shakespeare']
+output_Mrs Dalloway in Bond Street.csv,['Poem is not written by Shakespeare']
+output_Night and Day.csv,['Poem is not written by Shakespeare']
+output_Robert Sheckley - Mindswap - 1965.csv,['Poem is not written by Shakespeare']
+output_RSC_A.csv,['Poem is not written by Shakespeare']
+output_The Advancement of Learning.csv,['Poem is written by Shakespeare']
+output_The Common Reader.csv,['Poem is not written by Shakespeare']
+"output_The Essays or Counsels, Civil and Moral.csv",['Poem is written by Shakespeare']
+output_Valerius Terminus Of the Interpretation of Nature.csv,['Poem is written by Shakespeare']
